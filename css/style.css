@@ -6,16 +6,12 @@
 }
 
 @font-face {
-    font-family: 'RagularBold';
+    font-family: 'RalewayBold';
     src: url(./../fonts/Raleway-Bold.ttf);
 }
 
 * {
     font-family: 'RalewayRegular', Arial, Helvetica, sans-serif;
-}
-
-h1 {
-    font-family: 'RalewayBold', Arial, Helvetica, sans-serif;
 }
 
     /*Logo*/
@@ -66,12 +62,13 @@ h1 {
 
     /*Titles*/
 .titlesh1 {
+    font-family: 'RalewayBold', Arial, Helvetica, sans-serif;
     position: absolute;
     width: 575px;
     height: 26px;
     left: 55px;
     top: 126px;
-    font-size: 22px;
+    font-size: 21px;
     line-height: 26px;
 }
 
@@ -83,4 +80,47 @@ h1 {
     top: 160px;
     font-size: 16px;
     line-height: 19px;
+}
+
+    /*Search Bar*/
+.searchBarForm {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 332px;
+    height: 49px;
+    left: 55px;
+    top: 199px;
+    margin-top: 20px;
+}
+
+.searchBarIcone {
+    width: 50px;
+    height: 49px;
+    background: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.icone {
+    position: absolute;
+    left: 5.42%;
+    right: 90.36%;
+    top: 32.65%;
+    bottom: 30.61%;
+}
+
+.input {
+    padding: 15px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+}
+
+.buttonSearch {
+    background: #0065FC;
+    padding: 15px;
+    color: #FFFFFF;
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    font-family: 'RalewayBold', Arial, Helvetica, sans-serif;
 }

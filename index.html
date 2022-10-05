@@ -8,19 +8,42 @@
     <link rel="stylesheet" href="./css/style.css" type="text/css">
     <link rel="stylesheet" href="./css/tablet.css" type="text/css">
     <link rel="stylesheet" href="./css/phone.css" type="text/css">
-    <link rel="stylesheet" href="./css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="./fontawesome/css/all.css" type="text/css">
 </head>
 <body>
+    <!--Header BORDURE HEBERGEMENTS ET ACTIVITES-->
     <header class="header">
         <img class="headerLogo" src="./images/logo/Booki.png" alt="Logo Booki">
         <nav class="headerNav">
             <a class="navAccommodation" href="#">Hébergements</a>
             <a class="navActivities" href="#">Activités</a>
         </nav>
-        <div class="headerTitles">
-            <h1 class="titlesh1">Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p class="titlesp">En plein centre ville ou en pleine nature</p>
-        </div>
     </header>
+
+    <main>
+        <!--Titles + Search Bar + Filters + Info Bar-->
+        <div class="top">
+            <!--Titles-->
+            <div class="mainTitles">
+                <h1 class="titlesh1">Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p class="titlesp">En plein centre ville ou en pleine nature</p>
+            </div>
+            <!--Search Bar-->
+            <div class="searchBar">
+                <form method="get" class="searchBarForm">
+                    <div class="searchBarIcone">
+                        <span class="icone"><i class="fa-solid fa-location-dot"></i></span>
+                    </div>
+                    <div class="searchBarInput">
+                        <input class="input" type="text" placeholder="Marseille, France">
+                    </div>
+                    <div class="searchBarButton">
+                        <button class="buttonSearch">Rechercher</button>
+                    </div>
+                </form>
+                <!--Filters-->
+            </div>
+        </div>
+    </main>
 </body>
 </html>
