@@ -1,0 +1,63 @@
+/* General*/
+    /*Fonts*/
+@font-face {
+    font-family: 'RalewayRegular';
+    src: url(./../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'RagularBold';
+    src: url(./../fonts/Raleway-Bold.ttf);
+}
+
+* {
+    font-family: 'RalewayRegular', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'RagularBold', Arial, Helvetica, sans-serif;
+}
+
+    /*Logo*/
+.headerLogo {
+    position: absolute;
+    width: 61.09px;
+    height: 19px;
+    left: 55px;
+    top: 44px;
+}
+
+    /*Navigation*/
+.headerNav {
+    position: absolute;
+    width: 381px;
+    height: 19px;
+    left: 982px;
+    top: 48px;
+}
+
+.headerNav a {
+    position: absolute;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    top: 0%;
+    bottom: 0%;
+    color: black;
+    text-decoration: none;
+}
+
+.headerNav a:hover {
+    color:#0065FC;
+}
+
+.navAccommodation {
+    left: 36.22%;
+    right: 34.12%;
+}
+
+.navActivities {
+    left: 83.46%;
+    right: 0%;
+}
