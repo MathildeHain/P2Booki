@@ -158,9 +158,9 @@
 .filtersIcone {
     color: blue;
     width: 22px;
-left: 20px;
-top: 14px;
-bottom: 14px;
+    left: 20px;
+    top: 14px;
+    bottom: 14px;
 
 }
 
@@ -178,4 +178,20 @@ bottom: 14px;
 
 .buttonAnimals {
     width: 226px;
+}
+
+    /*InfoBar*/
+.infoBar {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 447px;
+    height: 24px;
+    left: 59px;
+    top: 365px;
+}
+
+.infoBarp {
+    margin: 0;
+    font-size: 16px;
 }
