@@ -179,3 +179,14 @@ bottom: 14px;
 .buttonAnimals {
     width: 226px;
 }
+
+    /*InfoBar*/
+.infoBar {
+    position: absolute;
+width: 447px;
+height: 24px;
+left: 59px;
+top: 365px;
+display: flex;
+align-items: center;
+}
