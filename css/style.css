@@ -182,16 +182,16 @@
 
     /*InfoBar*/
 .infoBar {
-    display: flex;
-    flex-direction: row;
     position: absolute;
     width: 447px;
     height: 24px;
     left: 59px;
     top: 365px;
+    display: flex;
+    align-items: center;
 }
 
 .infoBarp {
-    margin: 0;
-    font-size: 16px;
+    position: absolute;
+    left: 35px;
 }
