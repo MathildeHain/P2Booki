@@ -44,7 +44,7 @@ header {
 
     /*Titres*/
 .mainTitres {
-    margin: 30px;
+    margin: 20px;
 }
 
     /*Barre de recherche*/
@@ -68,6 +68,7 @@ form {
     /*Filtres*/
 .mainFiltres {
     flex-direction: column;
+    margin: 30px 0 0 0;
 }
 
 .twoButtons {
@@ -90,12 +91,18 @@ form {
     padding-right: 0;
 }
 
-    /*Titre*/
+        /*Titre*/
 .filtreTitre {
     align-self: flex-start;
     padding: 0;
     max-width: 100%;
-    padding-left: 40px;
+    padding-left: 20px;
+}
+
+    /*Bar d'information*/
+.infoBar {
+    max-width: 100%;
+    margin-left: 20px;
 }
 
 }
