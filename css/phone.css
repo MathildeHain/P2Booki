@@ -1,0 +1,47 @@
+@media (max-width: 767px) {
+/*GENERAL*/
+body {
+    max-width: 767px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+/*HEADER*/
+    /*Général*/
+header {
+    flex-direction: column;
+    align-items: center;
+}
+
+    /*Logo*/
+.headerLogo {
+    margin: 25px 0 0 0;
+}
+
+    /*Nav*/
+.headerNav {
+    width: 100%;
+}
+
+.headerNav ul {
+    width: 100%;
+    text-align: center;
+}
+
+.navTop {
+    border-bottom: 2px solid #F2F2F2;;
+    width: 50%;
+    padding-bottom: 15px;
+}
+
+.navTop:hover {
+    border-top: none;
+    border-bottom: 2px solid #0065FC;
+}
+
+/*HEBERGEMENT + POPULAIRE*/
+
+
+}
