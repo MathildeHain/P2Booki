@@ -23,4 +23,19 @@
     padding: 10px 20px;
 }
 
+/*HEBERGEMENT + POPULAIRE*/
+.hebergementsPopulaires {
+    flex-direction: column;
+    margin: 0 40px;
+}
+
+.hebergements {
+    margin-bottom: 50px;
+}
+
+    /*Populaire*/
+.populaireArticle {
+    display: flex;
+}
+
 }
