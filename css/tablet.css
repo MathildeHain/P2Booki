@@ -29,13 +29,49 @@
     margin: 0 40px;
 }
 
+    /*Hébergement*/
 .hebergements {
     margin-bottom: 50px;
 }
 
     /*Populaire*/
+        /*Titre et Icone*/
+.populaireTitreIcone {
+    justify-content: space-between;
+    padding: 10px 45px 0 45px;
+}
+
+.populaireTitre {
+    margin-bottom: 0;
+}
+
+        /*Carte*/
 .populaireArticle {
     display: flex;
+}
+
+.cardImgPopulaire {
+    width: 75px;
+}
+
+.cardInfoPopulaire {
+    width: 165px;
+}
+
+/*ACTIVITE*/
+.activiteArticle {
+    justify-content: space-evenly;
+}
+
+    /*Images*/
+.imgActivite {
+    width: 195px;
+    height: 230px
+}
+
+    /*Texte*/
+.articleLien h3 {
+    width: 115px;
 }
 
 }
