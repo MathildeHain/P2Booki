@@ -274,3 +274,41 @@ nav ul {
     border-radius: 20px 0 0 20px;
     border: 5px solid #FFFFFF;
 }
+
+    /*Activités*/
+.activite {
+    margin-top: 45px;
+}
+
+.activiteArticle {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+        /*Cartes*/
+.articleLien {
+    display: flex;
+    flex-direction: column-reverse;    
+    background: #FFFFFF;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    border-radius: 20px;
+}
+
+        /*Titre*/
+.activiteTitre {
+    margin: 0 0 20px 45px;
+}
+
+        /*Images*/
+.imgActivite {
+    width: 280px;
+    height: 400px;
+    border-radius: 20px 20px 0 0;
+}
+
+        /*Texte*/
+.articleLien h3 {
+    padding: 5px 0 5px 25px;
+}
+ 
