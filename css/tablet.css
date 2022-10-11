@@ -10,4 +10,17 @@
     color: #000000;
 }
 
+/*TOP*/
+    /*Filtres*/
+        /*Général*/
+.mainFiltres {
+    margin: 30px 0 10px 0;
+}
+
+        /*Boutons*/
+.buttonFiltre {
+    margin: 15px;
+    padding: 10px 20px;
+}
+
 }
