@@ -1,0 +1,164 @@
+@media (max-width: 767px) {
+/*GENERAL*/
+.column {
+    flex-direction: column;
+}
+
+/*HEADER*/
+    /*Général*/
+header {
+    flex-direction: column;
+    align-items: center;
+}
+
+    /*Logo*/
+.headerLogo {
+    margin: 25px 0 0 0;
+}
+
+    /*Nav*/
+.headerNav {
+    width: 100%;
+}
+
+.headerNav ul {
+    width: 100%;
+    text-align: center;
+}
+
+.navTop {
+    border-bottom: 2px solid #F2F2F2;;
+    width: 50%;
+    padding-bottom: 15px;
+}
+
+.navTop:hover {
+    border-top: none;
+    border-bottom: 2px solid #0065FC;
+}
+
+/*TOP*/
+.top {
+    margin-left: 0;
+}
+
+    /*Titres*/
+.mainTitres {
+    margin: 20px;
+}
+
+    /*Barre de recherche*/
+form {
+    text-align: center;
+}
+        /*Masquage du bouton Rechercher*/
+.searchBarButton {
+    display: none;
+}
+
+        /*Mise en forme de l'icone loupe*/
+.loupe {
+    padding: 14px 18px;
+    background: #0065FC;
+    color: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 0 15px 15px 0px;
+}
+
+    /*Filtres*/
+.mainFiltres {
+    flex-direction: column;
+    margin: 30px 0 0 0;
+}
+
+.twoButtons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.buttonFiltre {
+    margin: 0;
+    font-size: 12px;
+    width: 44%;
+    padding: 14px 10px;
+    text-align: start;
+    margin-left: 15px;
+}
+
+.filtreIcone {
+    padding-right: 0;
+}
+
+        /*Titre*/
+.filtreTitre {
+    align-self: flex-start;
+    padding: 0;
+    max-width: 100%;
+    padding-left: 20px;
+}
+
+    /*Bar d'information*/
+.infoBar {
+    max-width: 100%;
+    margin-left: 20px;
+}
+
+/*HEBERGEMENT + POPULAIRES*/
+.hebergementsPopulaires {
+    flex-direction: column-reverse;
+    max-width: 100%;
+}
+
+    /*Populaire*/
+.populaire {
+    border-radius: 0;
+}
+        /*Titre*/
+.populaireTitreIcone {
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 10px 20px 0 20px;
+}
+
+        /*Carte*/
+.populaireArticle article {
+    margin: 15px 20px;
+}
+
+    /*Hébergement*/
+.hebergements {
+    background: #FFFFFF;
+}
+
+        /*Images*/
+.cardImg {
+    width: 96%;
+}
+
+        /*Voir Plus*/
+.hebergementVoirPlus {
+    display: none;
+}
+
+/*ACTIVITE*/
+.activite {
+    margin-top: 0;
+}
+
+    /*Carte*/
+.activiteArticle article {
+    max-width: 100%;
+}
+.articleLien {
+    margin: 20px 40px;
+}
+
+    /*Image*/
+.imgActivite {
+    width: 100%;
+    height: 140px;
+}
+
+}
