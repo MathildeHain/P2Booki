@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css" type="text/css">
@@ -12,9 +11,13 @@
 </head>
 <body>
     <!--Header BORDURE HEBERGEMENTS ET ACTIVITES-->
-    <header class="header">
+    <header>
         <img class="headerLogo" src="./images/logo/Booki.png" alt="Logo Booki">
         <nav class="headerNav">
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
             <a class="navAccommodation" href="#">Hébergements</a>
             <a class="navActivities" href="#">Activités</a>
         </nav>
@@ -22,7 +25,7 @@
 
     <main>
         <!--TOP (Titles + Search Bar + Filters + Info Bar)-->
-        <div class="top">
+        <section class="top">
 
             <!--Titles-->
             <div class="mainTitles">
@@ -31,19 +34,11 @@
             </div>
 
             <!--Search Bar-->
-            <div class="searchBar">
-                <form method="get" class="searchBarForm">
-                    <div class="searchBarIcone">
-                        <span class="icone"><i class="fa-solid fa-location-dot"></i></span>
-                    </div>
-                    <div class="searchBarInput">
-                        <input class="input" type="text" placeholder="Marseille, France">
-                    </div>
-                    <div class="searchBarButton">
-                        <button class="buttonSearch">Rechercher</button>
-                    </div>
-                </form>
-            </div>
+            <form method="get" class="searchBarForm">
+                <span class="icone"><i class="fa-solid fa-location-dot"></i></span>
+                <input class="input" type="text" placeholder="Marseille, France">
+                <button class="buttonSearch" type="submit">Rechercher</button>
+            </form>
 
             <!--Filters-->
             <div class="mainFilters">
@@ -64,11 +59,11 @@
         </div>
 
         <!--ACCOMMODATIONS + POPULAR-->
-        <section class="accommodationsPopular">
-            <article class="accommodation">
+        <div class="accommodationsPopular">
+            <section class="accommodation">
                 <h2 class="accommodationsTitle">Hébergements à Marseille</h2>
 
-                <div>
+                <article>
                     <a class="card cardCanebiere" href="#">
                         <img class="cardImg" src="./images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Canebière">
                         <div class="cardInfo">
@@ -83,7 +78,9 @@
                             </div>
                         </div>
                     </a>
-                    
+                </article>
+                
+                <article>
                     <a class="card cardPort" href="#">
                         <img class="cardImg" src="./images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port">
                         <div class="cardInfo">
@@ -98,6 +95,8 @@
                             </div>
                         </div>
                     </a>
+                </article>
+                    
 
                     <a class="card cardMouettes" href="#">
                         <img class="cardImg" src="./images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les Mouettes">
@@ -163,10 +162,10 @@
                 </div>
 
                 <a class="cardShowMore" href="#"> Afficher plus</a>
-            </article>
+            </section>
 
             <!--POPULAR-->
-            <article class="popular">
+            <section class="popular">
                 <h2 class="popularTitle">Les plus populaires</h2>
                 <span><i class="fa-solid fa-chart-line popularIcone"></i></span>
 
@@ -216,13 +215,16 @@
                         </div>
                     </a>
                 </div>
-            </article>
-        </section>
+            </section>
+        </div>
 
         <section class="activities">
             <h2>Activités à Marseille</h2>
 
             <div class="activitiesCard">
+                <article>
+
+                </article>
                 <a class="cardLink" href="#">
                     <h3>Vieux-port</h3>
                     <img class="cardImgActivities" src="./images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux-port">
@@ -245,5 +247,32 @@
             </div>
         </section>
     </main>
+
+    <footer>
+        <div>
+            <h4>À propos</h4>
+            <ul>
+                <li><a href=""></a> Fonctionnement du site</li>
+                <li class="line">Conditions générales</li>
+                <li>Données et confidentialité</li>
+            </ul>
+        </div>
+
+        <div>
+            <h4>Nos hébergements</h4>
+            <ul>
+                <li>Charte qualité</li>
+                <li class="line">Proposer votre hôtel</li>
+            </ul>
+        </div>
+
+        <div>
+            <h4>Assistance</h4>
+            <ul>
+                <li>Centre d'aide</li>
+                <li class="line">Nous contacter</li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>

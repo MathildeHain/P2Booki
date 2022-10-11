@@ -1,22 +1,14 @@
 /* General*/
     /*Fonts*/
-@font-face {
-    font-family: 'RalewayRegular';
-    src: url(./../fonts/Raleway-Regular.ttf);
-}
-
-@font-face {
-    font-family: 'RalewayBold';
-    src: url(./../fonts/Raleway-Bold.ttf);
-}
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
 
 * {
-    font-family: 'RalewayRegular', Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
 h2 {
-    font-family: 'RalewayBold', Arial, Helvetica, sans-serif;
     font-size: 22px;
+    font-weight: 700;
 }
 
 body {
@@ -489,4 +481,31 @@ body {
     width: 302px;
     height: 445px;
     border-radius: 20px 20px 0px 0px;
+}
+
+
+    /*FOOTER*/
+footer {
+    position: absolute;
+    top: 1750px;
+    left: 50px;
+    background: #F2F2F2;
+    width: 1339px;
+    height: 183px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h4 {
+    font-size: 18px;
+    font-family: 'RalewayBold';
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.line {
+    line-height: 50px;
 }
