@@ -1,9 +1,5 @@
 @media (max-width: 767px) {
 /*GENERAL*/
-body {
-    max-width: 767px;
-}
-
 .column {
     flex-direction: column;
 }
@@ -41,7 +37,65 @@ header {
     border-bottom: 2px solid #0065FC;
 }
 
-/*HEBERGEMENT + POPULAIRE*/
+/*TOP*/
+.top {
+    margin-left: 0;
+}
 
+    /*Titres*/
+.mainTitres {
+    margin: 30px;
+}
+
+    /*Barre de recherche*/
+form {
+    text-align: center;
+}
+        /*Masquage du bouton Rechercher*/
+.searchBarButton {
+    display: none;
+}
+
+        /*Mise en forme de l'icone loupe*/
+.loupe {
+    padding: 14px 18px;
+    background: #0065FC;
+    color: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 0 15px 15px 0px;
+}
+
+    /*Filtres*/
+.mainFiltres {
+    flex-direction: column;
+}
+
+.twoButtons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.buttonFiltre {
+    margin: 0;
+    font-size: 12px;
+    width: 44%;
+    padding: 14px 10px;
+    text-align: start;
+    margin-left: 15px;
+}
+
+.filtreIcone {
+    padding-right: 0;
+}
+
+    /*Titre*/
+.filtreTitre {
+    align-self: flex-start;
+    padding: 0;
+    max-width: 100%;
+    padding-left: 40px;
+}
 
 }
