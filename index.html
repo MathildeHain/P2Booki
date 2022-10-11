@@ -15,8 +15,8 @@
         <img class="headerLogo" src="./images/logo/Booki.png" alt="Logo Booki">
         <nav class="headerNav">
             <ul>
-                <li class="navTop"><a class="navHebergement headerLien taille2" href="#">Hébergements</a></li>
-                <li class="navTop"><a class="navActivites headerLien taille2" href="#">Activités</a></li>
+                <li class="navTop"><a class="headerLien taille3" href="#">Hébergements</a></li>
+                <li class="navTop"><a class="headerLien taille3" href="#">Activités</a></li>
             </ul>
         </nav>
     </header>
@@ -28,32 +28,32 @@
 
             <!--Titres-->
             <div class="mainTitres">
-                <h1 class="titre1 bold taille1">Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p class="titrep taille2">En plein centre ville ou en pleine nature</p>
+                <h1 class="bold taille1">Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p class="taille3">En plein centre ville ou en pleine nature</p>
             </div>
 
             <!--Search Bar-->
             <form method="get">
                 <span class="searchBarIcone"><i class="fa-solid fa-location-dot"></i></span>
-                <input class="searchBarInput bold" type="text" placeholder="Marseille, France">
-                <button class="searchBarButton bold" type="submit">Rechercher</button>
+                <input class="searchBarInput bold taille2" type="text" placeholder="Marseille, France">   <!--Changer style lors de la saisie-->
+                <button class="searchBarButton bold taille2" type="submit">Rechercher</button>
             </form>
 
             <!--Filtres-->
             <div class="mainFiltres">
-                <h2 class="filtresTitres bold">Filtres</h2>
-                <div class="filtresButton">
-                    <button class="bold buttonMoney"> <i class="fa-solid fa-money-bill-wave filtersIcone"></i> Economique</button>                  
-                    <button class="boldbutton Family"> <i class="fa-solid fa-person filtersIcone"></i> Familial</button>                      
-                    <button class="bold buttonHeart"> <i class="fa-solid fa-heart filtersIcone"></i> Romantique</button>                     
-                    <button class="bold buttonAnimals"> <i class="fa-solid fa-dog filtersIcone"></i> Animaux autorisés</button>
+                <h2 class="filtreTitre bold taille2">Filtres</h2>
+                <div>
+                    <button class="bold buttonFiltre"> <i class="fa-solid fa-money-bill-wave filtreIcone"></i> Economique</button>                  
+                    <button class="bold buttonFiltre"> <i class="fa-solid fa-person filtreIcone"></i> Familial</button>                      
+                    <button class="bold buttonFiltre"> <i class="fa-solid fa-heart filtreIcone"></i> Romantique</button>                     
+                    <button class="bold buttonFiltre"> <i class="fa-solid fa-dog filtreIcone"></i> Animaux autorisés</button>
                 </div>
             </div>
 
             <!--InfoBar-->
             <div class="infoBar">
-                <span><i class="fa-solid fa-circle-info"></i></span>
-                <p class="infoBarp">Plus de 500 logements sont disponibles dans cette ville</p>
+                <span><i class="infoBarIcone fa-solid fa-info"></i></span>
+                <p class="infoBarTexte">Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
         </section>
 
@@ -65,11 +65,11 @@
 
                 <div class="hebergementsArticle">
                     <article>
-                        <a class="card cardCanebiere" href="#">
-                            <im class="cardImg" src="./images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Canebière">
+                        <a href="#">
+                            <img class="cardImg" src="./images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Canebière">
                             <div class="cardInfo">
-                                <h3 class="bold">Auberge La Canebière</h3>
-                                <p>Nuit à partir de 25<em>€</em></p>
+                                <h3 class="bold taille3">Auberge La Canebière</h3>
+                                <p class="taille4">Nuit à partir de 25<em>€</em></p>
                                 <div class="cardStar">
                                     <i class="fa-solid fa-star starBlue"></i>
                                     <i class="fa-solid fa-star starBlue"></i>
@@ -83,10 +83,10 @@
                     
                     <article>
                         <a class="card cardPort" href="#">
-                            <im class="cardImg" src="./images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port">
+                            <img class="cardImg" src="./images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port">
                             <div class="cardInfo">
-                                <h3 class="bold">Hôtel du port</h3>
-                                <p>Nuit à partir de 52€</p>
+                                <h3 class="bold taille3">Hôtel du port</h3>
+                                <p class="taille4">Nuit à partir de 52€</p>
                                 <div class="cardStar">
                                     <i class="fa-solid fa-star starBlue"></i>
                                     <i class="fa-solid fa-star starBlue"></i>
@@ -100,10 +100,10 @@
                         
                     <article>
                         <a class="card cardMouettes" href="#">
-                            <im class="cardImg" src="./images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les Mouettes">
+                            <img class="cardImg" src="./images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les Mouettes">
                             <div class="cardInfo">
-                                <h3 class="bold">Hôtel Les Mouettes</h3>
-                                <p>Nuit à partir de 76€</p>
+                                <h3 class="bold taille3">Hôtel Les Mouettes</h3>
+                                <p class="taille4">Nuit à partir de 76€</p>
                                 <div class="cardStar">
                                     <i class="fa-solid fa-star starBlue"></i>
                                     <i class="fa-solid fa-star starBlue"></i>
@@ -117,10 +117,10 @@
                                     
                     <article>
                         <a class="card cardMer" href="#">
-                            <im class="cardImg" src="./images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer">
+                            <img class="cardImg" src="./images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer">
                             <div class="cardInfo">
-                                <h3 class="bold">Hôtel de la mer</h3>
-                                <p>Nuit à partir de 46€</p>
+                                <h3 class="bold taille3">Hôtel de la mer</h3>
+                                <p class="taille4">Nuit à partir de 46€</p>
                                 <div class="cardStar">
                                     <i class="fa-solid fa-star starBlue"></i>
                                     <i class="fa-solid fa-star starBlue"></i>
@@ -134,10 +134,10 @@
                     
                     <article>
                         <a class="card cardPanier" href="#">
-                            <im class="cardImg" src="./images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Hôtel Le Panier">
+                            <img class="cardImg" src="./images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Hôtel Le Panier">
                             <div class="cardInfo">
-                                <h3 class="bold">Hôtel Le Panier</h3>
-                                <p>Nuit à partir de 23€</p>
+                                <h3 class="bold taille3">Hôtel Le Panier</h3>
+                                <p class="taille4">Nuit à partir de 23€</p>
                                 <div class="cardStar">
                                     <i class="fa-solid fa-star starBlue"></i>
                                     <i class="fa-solid fa-star starBlue"></i>
@@ -151,10 +151,10 @@
                         
                     <article>
                         <a class="card cardAmina" href="#">
-                            <im class="cardImg" src="./images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel Chez Amina">
+                            <img class="cardImg" src="./images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel Chez Amina">
                             <div class="cardInfo">
-                                <h3 class="bold">Hôtel Chez Amina</h3>
-                                <p>Nuit à partir de 96€</p>
+                                <h3 class="bold taille3">Hôtel Chez Amina</h3>
+                                <p class="taille4">Nuit à partir de 96€</p>
                                 <div class="cardStar">
                                     <i class="fa-solid fa-star starBlue"></i>
                                     <i class="fa-solid fa-star starBlue"></i>

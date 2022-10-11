@@ -25,10 +25,14 @@ body {
 }
 
 .taille2 {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .taille3 {
+    font-size: 16px;
+}
+
+.taille4 {
     font-size: 14px;
 }
 
@@ -46,8 +50,7 @@ header {
 }
 
     /*Nav*/
-nav {
-}
+
         /*Liste*/
 nav ul {
     list-style: none;
@@ -79,3 +82,111 @@ nav ul {
 .headerLien:hover {
     color:#0065FC;
 }
+
+/*MAIN*/
+
+/*TOP*/
+.top {
+    margin-left: 55px;
+}
+
+    /*Titres*/
+.mainTitres {
+    margin: 55px 0 30px 0px;
+}
+
+.mainTitres h1 {
+    margin: 0 0 10px 0;
+}
+
+    /*Formulaire de recherche*/
+
+        /*Icone*/
+.searchBarIcone {
+    padding: 14px 18px;
+    background: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+}
+
+        /*Input*/
+.searchBarInput::placeholder {
+    color: #000000;
+}
+
+.searchBarInput {
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    border-left: none;
+    border-right: none;
+    padding: 12px;
+}
+
+        /*Button*/
+.searchBarButton {
+    background: #0065FC;
+    color: #FFFFFF;
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    padding: 12px;
+}
+
+    /*Filtres*/
+.mainFiltres {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+
+        /*Titre*/
+.filtreTitre {
+    padding-right: 15px;
+}
+
+        /*Boutons*/
+.buttonFiltre {
+    margin: 0 15px;
+    padding: 10px 25px;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    background: #FFFFFF;
+    font-size: 17px;
+}
+
+.buttonFiltre:hover {
+    background:#DEEBFF;
+}
+
+        /*Icones*/
+.filtreIcone {
+    color: #0065FC;
+    padding-right: 12px;
+}
+
+    /*Bar d'information*/
+.infoBar {
+    display: flex;
+    align-items: center;
+}
+
+        /*Icone*/
+.infoBarIcone {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    font-size: 11px;
+
+    border: 1px solid #D9D9D9;
+    border-radius: 15px;
+    color: #0065FC;
+}
+
+.infoBarTexte {
+    margin-left: 15px;
+}
+
+        /*Texte*/
