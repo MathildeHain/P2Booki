@@ -141,6 +141,10 @@ nav ul {
     padding: 12px;
 }
 
+.loupe {
+    display: none;
+}
+
     /*Filtres*/
 .mainFiltres {
     display: flex;
