@@ -1,0 +1,41 @@
+@media (min-width: 768px) and (max-width: 992px) {
+
+/*Header*/
+    /*Nav*/
+.navTop:hover {
+    border-top: none;
+}
+
+.headerLien:hover {
+    color: #000000;
+}
+
+/*TOP*/
+    /*Filtres*/
+        /*Général*/
+.mainFiltres {
+    margin: 30px 0 10px 0;
+}
+
+        /*Boutons*/
+.buttonFiltre {
+    margin: 15px;
+    padding: 10px 20px;
+}
+
+/*HEBERGEMENT + POPULAIRE*/
+.hebergementsPopulaires {
+    flex-direction: column;
+    margin: 0 40px;
+}
+
+.hebergements {
+    margin-bottom: 50px;
+}
+
+    /*Populaire*/
+.populaireArticle {
+    display: flex;
+}
+
+}
