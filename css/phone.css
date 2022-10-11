@@ -105,4 +105,41 @@ form {
     margin-left: 20px;
 }
 
+/*HEBERGEMENT + POPULAIRES*/
+.hebergementsPopulaires {
+    flex-direction: column-reverse;
+    max-width: 100%;
+}
+
+    /*Populaire*/
+.populaire {
+    border-radius: 0;
+}
+        /*Titre*/
+.populaireTitreIcone {
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 10px 20px 0 20px;
+}
+
+        /*Carte*/
+.populaireArticle article {
+    margin: 15px 20px;
+}
+
+    /*Hébergement*/
+.hebergements {
+    background: #FFFFFF;
+}
+
+        /*Images*/
+.cardImg {
+    width: 96%;
+}
+
+        /*Voir Plus*/
+.hebergementVoirPlus {
+    display: none;
+}
+
 }
