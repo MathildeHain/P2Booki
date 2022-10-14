@@ -18,7 +18,7 @@
 
 
 /*HEBERGEMENT + POPULAIRES + ACTIVITES*/
-    /*GENERAL ET ELEMENTS COMMUNS*/
+    /*GENERAL*/
     .hebergementsPopulaires {
         display: flex;
         flex-direction: column;
@@ -29,95 +29,12 @@
         width: 90%;
     }
 
-    /*LIENS*/
-    .lien {
-       
-    }
-
-    /*ETOILES*/
-    .etoile {
-       
-    }
-
-    .etoile:last-child {
-        
-    }
-
-    /*TITRE DES SECTIONS*/
-    .hebergements__titre, .populaires__titre h2, .activites__titre {
-      
-    }
-
-    /*TITRE ET TEXTE DES ARTICLES*/
-        .hebergements__lien__info, .populaires__lien__info {
-            
-        }
-
-        /*Titre*/
-        .hebergements__info__titre, .populaires__info__titre, .activites__lien__titre {
-            
-        }
-
-        /*Texte*/
-        .hebergements__info__p, .populaires__info__p {
-            
-        }
-
     /*HEBERGEMENTS*/
-        /*Général*/
         .hebergements {
             margin: 0;
             margin-bottom: 50px;
         }
-
-        /*Artices*/
-            /*Div regroupant les article 3 par 3*/
-            .flex {
-               
-            }
-
-            /*Article*/
-            .hebergements__articles article {
-              
-            }
-
-            /*Lien*/
-            .hebergements__lien {
-              
-            }
-
-            /*Images*/
-            .hebergements__lien__image {
-                       
-            }
-
-            /*Info*/
-            .hebergements__lien__info {
-               
-            }
-
-                /*Titre*/
-                .hebergements__info__titre {
-                    
-                }
-
-                /*Texte*/
-                .hebergements__info__p {
-                   
-                }
-
-                .hebergements__info__p span {
-                   
-                }
-
-        /*Afficher Plus*/
-        .hebergements__afficherPlus {
-        
-        }
-
-        .hebergements__afficherPlus a {
-           
-        }
+       
 
     /*POPULAIRES*/
         /*Général*/
@@ -125,55 +42,15 @@
             margin-right: 0;
         }
 
-        /*Titre et Icone*/
-        .populaires__titre {
-           
-        }
-
-        .populaires__titre span i {
-            
-        }
-
-        /*Articles*/
-            /*Lien*/
-            .populaires__lien {
-                
-            }
-
-            /*Images*/
-            .populaires__lien__image {
-                
-            }
-
-
-            
 
     /*ACTIVITES*/
-        /*Titre*/
-        .activites__titre {
-            
+        /*Lien*/
+        .article__lien {
+            width: 140px;
         }
 
-        /*Article*/
-            /*Div qui englobe les articles*/
-            .activites__articles {
-              flex-direction: column;
-            }
-
-            /*Lien*/
-            .article__lien {
-               
-            }
-
-                /*Titre*/
-                .article__lien__titre {
-                   
-                }
-
-                /*Image*/
-                .activites__lien__image {
-                    
-                }
-
-
+        /*Image*/
+        .activites__lien__image {
+            height: 160px;
+        }
 }
