@@ -139,6 +139,21 @@ form {
         height: 125px;
     }
 
+    /*Activites*/
+    .activites__articles {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .activites__articles article {
+        width: 80%;
+    }
+
+    .article__lien {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
 
 /*FOOTER*/
 footer {
