@@ -1,6 +1,6 @@
 @media (min-width: 768px) and (max-width: 991px) {
 
-/*Header*/
+/*HEADER*/
     /*Nav*/
 .navTop:hover {
     border-top: none;
@@ -10,68 +10,170 @@
     color: #000000;
 }
 
-/*TOP*/
-    /*Filtres*/
+    /*Top*/
         /*Général*/
-.mainFiltres {
-    margin: 30px 0 10px 0;
-}
+        .top {
+            margin-left: 35px;
+        }
 
-        /*Boutons*/
-.buttonFiltre {
-    margin: 15px;
-    padding: 10px 20px;
-}
 
-/*HEBERGEMENT + POPULAIRE*/
-.hebergementsPopulaires {
-    flex-direction: column;
-    margin: 0 40px;
-}
+/*HEBERGEMENT + POPULAIRES + ACTIVITES*/
+    /*GENERAL ET ELEMENTS COMMUNS*/
+    .hebergementsPopulaires {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-    /*Hébergement*/
-.hebergements {
-    margin-bottom: 50px;
-}
+    .hebergements, .populaires {
+        width: 90%;
+    }
 
-    /*Populaire*/
+    /*LIENS*/
+    .lien {
+       
+    }
+
+    /*ETOILES*/
+    .etoile {
+       
+    }
+
+    .etoile:last-child {
+        
+    }
+
+    /*TITRE DES SECTIONS*/
+    .hebergements__titre, .populaires__titre h2, .activites__titre {
+      
+    }
+
+    /*TITRE ET TEXTE DES ARTICLES*/
+        .hebergements__lien__info, .populaires__lien__info {
+            
+        }
+
+        /*Titre*/
+        .hebergements__info__titre, .populaires__info__titre, .activites__lien__titre {
+            
+        }
+
+        /*Texte*/
+        .hebergements__info__p, .populaires__info__p {
+            
+        }
+
+    /*HEBERGEMENTS*/
+        /*Général*/
+        .hebergements {
+            margin: 0;
+            margin-bottom: 50px;
+        }
+
+        /*Artices*/
+            /*Div regroupant les article 3 par 3*/
+            .flex {
+               
+            }
+
+            /*Article*/
+            .hebergements__articles article {
+              
+            }
+
+            /*Lien*/
+            .hebergements__lien {
+              
+            }
+
+            /*Images*/
+            .hebergements__lien__image {
+                       
+            }
+
+            /*Info*/
+            .hebergements__lien__info {
+               
+            }
+
+                /*Titre*/
+                .hebergements__info__titre {
+                    
+                }
+
+                /*Texte*/
+                .hebergements__info__p {
+                   
+                }
+
+                .hebergements__info__p span {
+                   
+                }
+
+        /*Afficher Plus*/
+        .hebergements__afficherPlus {
+        
+        }
+
+        .hebergements__afficherPlus a {
+           
+        }
+
+    /*POPULAIRES*/
+        /*Général*/
+        .populaires {
+            margin-right: 0;
+        }
+
         /*Titre et Icone*/
-.populaireTitreIcone {
-    justify-content: space-between;
-    padding: 10px 45px 0 45px;
-}
+        .populaires__titre {
+           
+        }
 
-.populaireTitre {
-    margin-bottom: 0;
-}
+        .populaires__titre span i {
+            
+        }
 
-        /*Carte*/
-.populaireArticle {
-    display: flex;
-}
+        /*Articles*/
+            /*Lien*/
+            .populaires__lien {
+                
+            }
 
-.cardImgPopulaire {
-    width: 75px;
-}
+            /*Images*/
+            .populaires__lien__image {
+                
+            }
 
-.cardInfoPopulaire {
-    width: 165px;
-}
 
-/*ACTIVITE*/
-.activiteArticle {
-    justify-content: space-evenly;
-}
+            
 
-    /*Images*/
-.imgActivite {
-    width: 195px;
-    height: 230px
-}
+    /*ACTIVITES*/
+        /*Titre*/
+        .activites__titre {
+            
+        }
 
-    /*Texte*/
-.articleLien h3 {
-    width: 115px;
-}
+        /*Article*/
+            /*Div qui englobe les articles*/
+            .activites__articles {
+              flex-direction: column;
+            }
+
+            /*Lien*/
+            .article__lien {
+               
+            }
+
+                /*Titre*/
+                .article__lien__titre {
+                   
+                }
+
+                /*Image*/
+                .activites__lien__image {
+                    
+                }
+
 
 }

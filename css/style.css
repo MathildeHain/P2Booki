@@ -167,6 +167,7 @@ nav ul {
     border-radius: 25px;
     background: #FFFFFF;
     font-size: 17px;
+    align-items: center;
 }
 
 .buttonFiltre:hover {
@@ -211,7 +212,7 @@ nav ul {
     margin-left: 15px;
 }
 
-/*HEBERGEMENT + POPULAIRES*/
+/*HEBERGEMENT + POPULAIRES + ACTIVITES*/
     /*GENERAL ET ELEMENTS COMMUNS*/
     .hebergementsPopulaires {
         display: flex;
@@ -274,11 +275,7 @@ nav ul {
         }
 
         /*Artices*/
-            /*Div regroupant tous les articles*/
-            .hebergments__article {
-
-            }
-
+            /*Div regroupant les article 3 par 3*/
             .flex {
                 display: flex;
                 justify-content: space-around;
@@ -359,16 +356,6 @@ nav ul {
         }
 
         /*Articles*/
-            /*Div regroupant tous les articles*/
-            .populaires__articles {
-
-            }
-
-            /*Article*/
-            .populaires__articles article {
-
-            }
-
             /*Lien*/
             .populaires__lien {
                 margin: 25px 30px;
@@ -381,35 +368,10 @@ nav ul {
                 border-radius: 20px 0 0 20px;
             }
 
-            /*Info*/
-            .populaires__lien__info {
-
-            }
-
-                /*Titre*/
-                .populaires__info__titre {
-
-                }
-
-                /*Texte*/
-                .populaires__info__p {
-
-                }
-
-                /*Etoiles*/
-                .populaires__info__étoiles {
-
-                }
-
 
             
 
     /*ACTIVITES*/
-        /*Général*/
-        .activites {
-
-        }
-
         /*Titre*/
         .activites__titre {
             margin-bottom: 25px;
@@ -422,11 +384,6 @@ nav ul {
                 justify-content: space-around;
             }
 
-            /*Article*/
-            .activites__articles article {
-
-            }
-
             /*Lien*/
             .article__lien {
                 display: flex;
@@ -437,7 +394,7 @@ nav ul {
 
                 /*Titre*/
                 .article__lien__titre {
-
+                    padding: 0 0 20px 10px;
                 }
 
                 /*Image*/
