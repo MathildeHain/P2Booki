@@ -107,7 +107,9 @@ nav ul {
 }
 
     /*Formulaire de recherche*/
-
+form {
+    display: flex;
+}
         /*Icone*/
 .searchBarIcone {
     padding: 14px 18px;
