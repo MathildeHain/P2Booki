@@ -66,33 +66,28 @@ header {
         /*Liste*/
 nav ul {
     list-style: none;
-
     display: flex;
-    justify-content: space-around;
-
     padding: 0;
     margin: 0;
-
-    width: 381px;
-}
-
-.navTop {
-    padding-top: 44px;
-}
-
-.navTop:hover {
-    border-top: 2px solid #0065FC;
-    padding-top: 42px;
+    justify-content: space-between;
+    width: 300px;
 }
 
         /*Liens*/
 .headerLien {
     text-decoration: none;
     color: #000000;
+    display: flex;
+    height: 60px;
+    width: 130px;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 .headerLien:hover {
     color:#0065FC;
+    border-top: 2px solid #0065FC;
+    height: 58px;
 }
 
 /*MAIN*/
