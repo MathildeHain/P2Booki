@@ -223,7 +223,7 @@ header {
             justify-content: space-between;
         }
 
-        .hebergements, .populaires {
+        #hebergements, .populaires {
             border-radius: 20px;
         }
 
@@ -277,7 +277,7 @@ header {
 
         /*HEBERGEMENTS*/
             /*Général*/
-            .hebergements {
+            #hebergements {
                 width: 64%;
                 background-color: #F2F2F2;
             }
@@ -453,3 +453,4 @@ header {
         .puce {
             line-height: 25px;
         }
+    
