@@ -1,7 +1,10 @@
 /*GENERAL*/
 body {
     margin: 0;
+    width: auto;
+    padding: 0 55px;
 }
+
 /*FONTS*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
@@ -10,38 +13,38 @@ body {
 }
 
     /*Epaisseur*/
-* {
-    font-weight: 400;
-}
+    * {
+        font-weight: 400;
+    }
 
-.bold {
-    font-weight: 700;
-}
+    .bold {
+        font-weight: 700;
+    }
 
     /*Taille*/
-.taille1 {
-    font-size: 18px;
-}
+    .taille1 {
+        font-size: 18px;
+    }
 
-.taille2 {
-    font-size: 16px;
-}
+    .taille2 {
+        font-size: 16px;
+    }
 
-.taille3 {
-    font-size: 14px;
-}
+    .taille3 {
+        font-size: 14px;
+    }
 
-.taille4 {
-    font-size: 12px;
-}
+    .taille4 {
+        font-size: 12px;
+    }
 
 /*LIENS*/
-a {
-    text-decoration: none;
-    color: #000000;
-}
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
 
-    /*Images*/
+/*IMAGES*/
 img {
     object-fit: cover;
 }
@@ -52,357 +55,378 @@ img {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
     /*Logo*/
-.headerLogo {
-    width: 61px;
-    height: 19px;
-    margin: 44px 0 0 55px;
-}
+    .header__logo {
+        width: 61px;
+        height: 19px;
+    }
 
     /*Nav*/
 
         /*Liste*/
-nav ul {
-    list-style: none;
-
-    display: flex;
-    justify-content: space-around;
-
-    padding: 0;
-    margin: 0;
-
-    width: 381px;
-}
-
-.navTop {
-    padding-top: 44px;
-}
-
-.navTop:hover {
-    border-top: 2px solid #0065FC;
-    padding-top: 42px;
-}
+        nav ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin: 0;
+            justify-content: space-between;
+            width: 300px;
+        }
 
         /*Liens*/
-.headerLien {
-    text-decoration: none;
-    color: #000000;
-}
+        .header__lien {
+            text-decoration: none;
+            color: #000000;
+            display: flex;
+            height: 60px;
+            width: 130px;
+            align-items: flex-end;
+            justify-content: center;
+        }
 
-.headerLien:hover {
-    color:#0065FC;
-}
+        .header__lien:hover {
+            color:#0065FC;
+            border-top: 2px solid #0065FC;
+            height: 58px;
+        }
 
 /*MAIN*/
 
-/*TOP*/
-.top {
-    margin-left: 55px;
-}
+    /*TOP -> Titres + Formulaire de recherche + Filtre + Barre d'information*/
 
-    /*Titres*/
-.mainTitres {
-    margin: 55px 0 30px 0px;
-}
+        /*Titres*/
+        .main__titres {
+            margin: 55px 0 30px 0px;
+        }
 
-.mainTitres h1 {
-    margin: 0 0 10px 0;
-}
+        .main__titres h1 {
+            margin: 0 0 10px 0;
+        }
 
-    /*Formulaire de recherche*/
+        /*Formulaire de recherche*/
+        form {
+            display: flex;
+        }
+            /*Icone*/
+            .searchBar__icone {
+                padding: 14px 18px;
+                background: #F2F2F2;
+                border: 1px solid #F2F2F2;
+                border-radius: 15px 0px 0px 15px;
+            }
 
-        /*Icone*/
-.searchBarIcone {
-    padding: 14px 18px;
-    background: #F2F2F2;
-    border: 1px solid #F2F2F2;
-    border-radius: 15px 0px 0px 15px;
-}
+            /*Input*/
+            .searchBar__input::placeholder {
+                color: #000000;
+            }
 
-        /*Input*/
-.searchBarInput::placeholder {
-    color: #000000;
-}
+            .searchBar__input {
+                border-top: 1px solid #F2F2F2;
+                border-bottom: 1px solid #F2F2F2;
+                border-left: none;
+                border-right: none;
+                padding: 12px;
+            }
 
-.searchBarInput {
-    border-top: 1px solid #F2F2F2;
-    border-bottom: 1px solid #F2F2F2;
-    border-left: none;
-    border-right: none;
-    padding: 12px;
-}
+            /*Button*/
+                /*Général*/
+                .searchBar__button {
+                    background: #0065FC;
+                    color: #FFFFFF;
+                    border: 1px solid #0065FC;
+                    border-radius: 0px 15px 15px 0px;
+                    padding: 12px;
+                }
 
-        /*Button*/
-.searchBarButton {
-    background: #0065FC;
-    color: #FFFFFF;
-    border: 1px solid #0065FC;
-    border-radius: 0px 15px 15px 0px;
-    padding: 12px;
-}
+                /*Loupe*/
+                .button__loupe::before {
+                    display: none;
+                }
 
-.loupe {
-    display: none;
-}
+        /*Filtres*/
+        .main__filtres {
+            display: flex;
+            align-items: center;
+            margin: 30px 0;
+        }
 
-    /*Filtres*/
-.mainFiltres {
-    display: flex;
-    align-items: center;
-    margin: 30px 0;
-}
+            /*Titre*/
+            .filtre__titre {
+                padding-right: 15px;
+            }
 
-        /*Titre*/
-.filtreTitre {
-    padding-right: 15px;
-}
+            /*Boutons*/
+                /*Général*/
+                .filtre__buttons {
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-start;
+                }
 
-        /*Boutons*/
-.buttonFiltre {
-    margin: 0 15px;
-    padding: 10px 25px;
-    border: 2px solid #D9D9D9;
-    border-radius: 25px;
-    background: #FFFFFF;
-    font-size: 17px;
-    align-items: center;
-}
+                /*Boutons séparés*/
+                .button__filtre {
+                    margin: 0 15px;
+                    padding: 10px 25px;
+                    border: 2px solid #D9D9D9;
+                    border-radius: 25px;
+                    background: #FFFFFF;
+                    font-size: 17px;
+                    align-items: center;
+                    display: flex;
+                }
 
-.buttonFiltre:hover {
-    background:#DEEBFF;
-}
+                .button__filtre:hover {
+                    background:#DEEBFF;
+                }
 
-.twoButtons {
-    display: flex;
-}
+            /*Icones*/
+            .filtreIcone {
+                color: #0065FC;
+                padding-right: 12px;
+            }
 
-        /*Icones*/
-.filtreIcone {
-    color: #0065FC;
-    padding-right: 12px;
-}
+        /*Bar d'information*/
+        .infoBar {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
 
-    /*Bar d'information*/
-.infoBar {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
+            /*Icone*/
+            .infoBarIcone {
+                display: flex !important;
+                align-items: center;
+                justify-content: center;
 
-        /*Icone*/
-.infoBarIcone {
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
+                width: 10px;
+                height: 10px;
+                padding: 5px;
+                font-size: 11px;
 
-    width: 10px;
-    height: 10px;
-    padding: 5px;
-    font-size: 11px;
+                border: 1px solid #D9D9D9;
+                border-radius: 15px;
+                color: #0065FC;
+            }
 
-    border: 1px solid #D9D9D9;
-    border-radius: 15px;
-    color: #0065FC;
-}
+            /*Texte*/
+            .infoBarTexte {
+                margin-left: 15px;
+            }
 
-        /*Texte*/
-.infoBarTexte {
-    margin-left: 15px;
-}
+    /*HEBERGEMENT + POPULAIRES + ACTIVITES*/
+        /*GENERAL ET ELEMENTS COMMUNS*/
+        .hebergementsPopulaires {
+            display: flex;
+            justify-content: space-between;
+        }
 
-/*HEBERGEMENT + POPULAIRES + ACTIVITES*/
-    /*GENERAL ET ELEMENTS COMMUNS*/
-    .hebergementsPopulaires {
-        display: flex;
-    }
+        #hebergements, .populaires {
+            border-radius: 20px;
+        }
 
-    .hebergements, .populaires {
-        border-radius: 20px;
-    }
+        /*LIENS*/
+        .lien {
+            display: flex;
+            background-color: #FFFFFF;
+            filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+            border: 5px solid #FFFFFF;
+            border-radius: 20px;
+        }
 
-    /*LIENS*/
-    .lien {
-        display: flex;
-        background-color: #FFFFFF;
-        filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-        border: 5px solid #FFFFFF;
-        border-radius: 20px;
-    }
+        /*ETOILES*/
+        .hebergements__info__étoiles, .populaires__info__étoiles {
+            display: flex;
+        }
 
-    /*ETOILES*/
-    .etoile {
-        color: #0065FC;
-        font-size: 14px;
-    }
+        .etoile {
+            color: #0065FC;
+            font-size: 12px;
+        }
 
-    .etoile:last-child {
-        color: #D9D9D9;
-    }
+        .etoile:last-child {
+            color: #D9D9D9;
+        }
 
-    /*TITRE DES SECTIONS*/
-    .hebergements__titre, .populaires__titre h2, .activites__titre {
-        font-size: 22px;
-        font-weight: bold;
-        margin: 45px 0 0 45px;
-    }
+        /*TITRE DES SECTIONS*/
+        .hebergements__titre, .populaires__titre h2, .activites__titre {
+            font-size: 22px;
+            font-weight: bold;
+            margin: 45px 0 0 45px;
+        }
 
-    /*TITRE ET TEXTE DES ARTICLES*/
+        /*TITRE ET TEXTE DES ARTICLES*/
         .hebergements__lien__info, .populaires__lien__info {
             padding-left: 10px;
         }
 
-        /*Titre*/
-        .hebergements__info__titre, .populaires__info__titre, .activites__lien__titre {
-            font-size: 16px;
-            font-weight: bold;
-            margin-bottom: 0;
-        }
+            /*Titre*/
+            .hebergements__info__titre, .populaires__info__titre, .activites__lien__titre {
+                font-size: 16px;
+                font-weight: bold;
+                margin-bottom: 0;
+            }
 
-        /*Texte*/
-        .hebergements__info__p, .populaires__info__p {
-            font-size: 14px;
-            margin: 5px 0;
-        }
+            /*Texte*/
+            .hebergements__info__p, .populaires__info__p {
+                font-size: 14px;
+                margin: 5px 0;
+            }
 
-    /*HEBERGEMENTS*/
-        /*Général*/
-        .hebergements {
-            width: 80%;
-            margin: 0 50px;
-            background-color: #F2F2F2;
-        }
+        /*HEBERGEMENTS*/
+            /*Général*/
+            #hebergements {
+                width: 64%;
+                background-color: #F2F2F2;
+            }
 
-        /*Artices*/
-            /*Div regroupant les article 3 par 3*/
-            .flex {
+            /*Artices*/
+                /*Général*/
+                .hebergements__articles {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-evenly;
+                }
+
+                /*Article*/
+                .hebergements__articles article {
+                    margin: 25px 0;
+                    width: 28%;
+                }
+
+                /*Lien*/
+                .hebergements__lien {
+                    flex-direction: column;
+                    min-width: 100%;
+                }
+
+                /*Images*/
+                .hebergements__lien__image {
+                    min-width: 100%;
+                    height: 100px;   
+                    border-radius: 20px 20px 0 0;         
+                }
+
+                /*Info*/
+                .hebergements__lien__info {
+                    position: relative;
+                    top: -5px;
+                }
+
+                    /*Titre*/
+                    .hebergements__info__titre {
+                        font-size: 16px;
+                        font-weight: bold;
+                        margin-bottom: 0;
+                    }
+
+                    /*Texte*/
+                    .hebergements__info__p {
+                        font-size: 14px;
+                        margin: 5px 0;
+                    }
+
+                    .hebergements__info__p span {
+                        font-weight: bold;
+                    }
+
+            /*Afficher Plus*/
+            .hebergements__afficherPlus {
+                margin: 10px 0 40px 45px;
+            }
+
+            .hebergements__afficherPlus a {
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+        /*POPULAIRES*/
+            /*Général*/
+            .populaires {
+                width: 33%;
+                background-color: #F2F2F2;
+            }
+
+            /*Titre et Icone*/
+            .populaires__titre {
                 display: flex;
-                justify-content: space-around;
-                margin: 0px 25px;
+                align-items: flex-end;
+                justify-content: space-between;
             }
 
-            /*Article*/
-            .hebergements__articles article {
-                margin: 25px 0;
-                width: 28%;
+            .populaires__titre span i {
+                margin-right: 25px;
+                color: #0065FC;
             }
 
-            /*Lien*/
-            .hebergements__lien {
-                flex-direction: column;
-                min-width: 100%;
-                height: 200px;
-            }
-
-            /*Images*/
-            .hebergements__lien__image {
-                min-width: 100%;
-                height: 100px;   
-                border-radius: 20px 20px 0 0;         
-            }
-
-            /*Info*/
-            .hebergements__lien__info {
-                position: relative;
-                top: -5px;
-            }
-
-                /*Titre*/
-                .hebergements__info__titre {
-                    font-size: 16px;
-                    font-weight: bold;
-                    margin-bottom: 0;
+            /*Articles*/
+                /*Lien*/
+                .populaires__lien {
+                    margin: 25px 30px;
                 }
 
-                /*Texte*/
-                .hebergements__info__p {
-                    font-size: 14px;
-                    margin: 5px 0;
+                    /*Info*/
+                    .populaires__lien__info {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                    }
+
+                /*Images*/
+                .populaires__lien__image {
+                    width: 40%;
+                    height: 130px;
+                    border-radius: 20px 0 0 20px;
                 }
 
-                .hebergements__info__p span {
-                    font-weight: bold;
+                /*Etoiles*/
+                .populaires__info__étoiles {
+                    padding-bottom: 5px;
                 }
-
-        /*Afficher Plus*/
-        .hebergements__afficherPlus {
-            margin: 10px 0 40px 45px;
-        }
-
-        .hebergements__afficherPlus a {
-            font-size: 18px;
-            font-weight: bold;
-        }
-
-    /*POPULAIRES*/
-        /*Général*/
-        .populaires {
-            width: 40%;
-            background-color: #F2F2F2;
-            margin-right: 50px;
-        }
-
-        /*Titre et Icone*/
-        .populaires__titre {
-            display: flex;
-            align-items: flex-end;
-            justify-content: space-between;
-        }
-
-        .populaires__titre span i {
-            margin-right: 25px;
-            color: #0065FC;
-        }
-
-        /*Articles*/
-            /*Lien*/
-            .populaires__lien {
-                margin: 25px 30px;
-            }
-
-            /*Images*/
-            .populaires__lien__image {
-                width: 40%;
-                height: 130px;
-                border-radius: 20px 0 0 20px;
-            }
 
 
             
 
-    /*ACTIVITES*/
-        /*Titre*/
-        .activites__titre {
-            margin-bottom: 25px;
-        }
-
-        /*Article*/
-            /*Div qui englobe les articles*/
-            .activites__articles {
-                display: flex;
-                justify-content: space-around;
+        /*ACTIVITES*/
+            /*Titre*/
+            .activites__titre {
+                margin-bottom: 25px;
+                margin-left: 0;
             }
 
-            /*Lien*/
-            .article__lien {
-                display: flex;
-                flex-direction: column-reverse;
-                width: 200px;
-                border: none;
-            }
-
-                /*Titre*/
-                .article__lien__titre {
-                    padding: 0 0 20px 10px;
+            /*Article*/
+                /*Div qui englobe les articles*/
+                .activites__articles {
+                    display: flex;
+                    justify-content: space-between;
                 }
 
-                /*Image*/
-                .activites__lien__image {
-                    width: 100%;
-                    height: 300px;
-                    border-radius: 20px 20px 0 0;
+                .activites__articles article {
+                    width: 23%;
                 }
+
+                /*Lien*/
+                .article__lien {
+                    display: flex;
+                    flex-direction: column-reverse;
+                    border: none;
+                    height: auto;
+                }
+
+                    /*Image*/
+                    .activites__lien__image {
+                        width: 100%;
+                        height: 390px;
+                        border-radius: 20px 20px 0 0;
+                    }
+
+                    /*Texte*/
+                    .activites__lien__titre {
+                        margin: 0;
+                        padding: 15px 0 15px 25px;
+                    }
 
 
 
@@ -410,22 +434,23 @@ nav ul {
 
  
 
-/*FOOTER*/
+    /*FOOTER*/
 
-    /*Général*/
-footer {
-    display: flex;
-    justify-content: space-around;
-    margin: 30px 50px 0 50px;
-    background:#F2F2F2;
-}
+        /*Général*/
+        footer {
+            display: flex;
+            justify-content: space-around;
+            background:#F2F2F2;
+            margin-top: 60px;
+        }
 
-    /*Liste*/
-.liste {
-    list-style-type: none;
-    padding: 0;
-}
+        /*Liste*/
+        .liste {
+            list-style-type: none;
+            padding: 0;
+        }
 
-.puce {
-    line-height: 25px;
-}
+        .puce {
+            line-height: 25px;
+        }
+    
