@@ -24,6 +24,7 @@
         /*HEBERGEMENTS*/
         #hebergements {
             margin-bottom: 50px;
+            width: 100%;
         }
 
         /*POPULAIRES*/
@@ -39,4 +40,9 @@
 
         .populaires__lien {
             margin: 0;
+        }
+
+        /*ACTIVITES*/
+        .activites__lien__image {
+            height: 180px;
         }

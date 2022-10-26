@@ -169,11 +169,10 @@ header {
                 /*Boutons séparés*/
                 .button__filtre {
                     margin: 0 15px;
-                    padding: 10px 25px;
+                    padding: 10px 10px;
                     border: 2px solid #D9D9D9;
                     border-radius: 25px;
                     background: #FFFFFF;
-                    font-size: 17px;
                     align-items: center;
                     display: flex;
                 }
@@ -243,7 +242,7 @@ header {
 
         .etoile {
             color: #0065FC;
-            font-size: 12px;
+            font-size: 11px;
         }
 
         .etoile:last-child {
@@ -252,9 +251,9 @@ header {
 
         /*TITRE DES SECTIONS*/
         .hebergements__titre, .populaires__titre h2, .activites__titre {
-            font-size: 22px;
             font-weight: bold;
-            margin: 45px 0 0 45px;
+            padding: 45px 0 0 20px;
+            margin: 0;
         }
 
         /*TITRE ET TEXTE DES ARTICLES*/
@@ -264,14 +263,12 @@ header {
 
             /*Titre*/
             .hebergements__info__titre, .populaires__info__titre, .activites__lien__titre {
-                font-size: 16px;
                 font-weight: bold;
                 margin-bottom: 0;
             }
 
             /*Texte*/
             .hebergements__info__p, .populaires__info__p {
-                font-size: 14px;
                 margin: 5px 0;
             }
 
@@ -317,29 +314,13 @@ header {
 
                     /*Titre*/
                     .hebergements__info__titre {
-                        font-size: 16px;
                         font-weight: bold;
                         margin-bottom: 0;
-                    }
-
-                    /*Texte*/
-                    .hebergements__info__p {
-                        font-size: 14px;
-                        margin: 5px 0;
-                    }
-
-                    .hebergements__info__p span {
-                        font-weight: bold;
                     }
 
             /*Afficher Plus*/
             .hebergements__afficherPlus {
                 margin: 10px 0 40px 45px;
-            }
-
-            .hebergements__afficherPlus a {
-                font-size: 18px;
-                font-weight: bold;
             }
 
         /*POPULAIRES*/
@@ -418,14 +399,14 @@ header {
                     /*Image*/
                     .activites__lien__image {
                         width: 100%;
-                        height: 390px;
+                        height: 270px;
                         border-radius: 20px 20px 0 0;
                     }
 
                     /*Texte*/
                     .activites__lien__titre {
                         margin: 0;
-                        padding: 15px 0 15px 25px;
+                        padding: 15px 0 15px 10px;
                     }
 
 
@@ -439,9 +420,14 @@ header {
         /*Général*/
         footer {
             display: flex;
-            justify-content: space-around;
             background:#F2F2F2;
             margin-top: 60px;
+            padding-left: 45px;
+        }
+
+        /*Div*/
+        .footerInfo {
+            flex: 1;
         }
 
         /*Liste*/
