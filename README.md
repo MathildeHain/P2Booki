@@ -8,11 +8,11 @@ Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS. Pou
 
 Sarah vous envoie un e-mail pour vous présenter l'avancée du projet.
 
-> **Object: Bienvenue !
+> **Object** : Bienvenue !
 > 
-> **De: Sarah
+> **De**: Sarah
 > 
-> **À: Vous
+> **À** : Vous
 > 
 > Bonjour, 
 > 
