@@ -32,3 +32,12 @@ Sarah vous envoie un e-mail pour vous présenter l'avancée du projet.
 > Bon courage pour ce projet, et bonne journée !
 > 
 > Sarah, CTO @Booki
+> Pièces jointes :
+> - [Maquettes du site Booki](https://www.figma.com/file/r9YJyUkpVdrxzBBKGH7reY/Maquettes-Booki-(desktop%2C-mobile%2C-tablette)?type=design&node-id=3-0)
+> - [Note de synthèse pour intégration du site Booki](https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/IW_P3+HTML+CSS+Booki/IW+%3A+React+Booki+-+Note+de+synthese.pdf)
+> - [Base de code](https://github.com/OpenClassrooms-Student-Center/booki-starter-code)
+
+Ravi de ce projet, vous commencez par vous plonger dans l'étude des maquettes !
+
+
+
