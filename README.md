@@ -8,14 +8,14 @@ Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS. Pou
 
 Sarah vous envoie un e-mail pour vous présenter l'avancée du projet.
 
->
-> :enveloppe:
+> **Object: Bienvenue !
 > 
-> **Object**: Bienvenue !
-> **From**: Sarah
-> **To**: Moi
+> **De: Sarah
+> 
+> **À: Vous
 > 
 > Bonjour, 
+> 
 > Ça y est, Loïc a finalisé les maquettes desktop, tablette et mobile du site ! Tu vas pouvoir les intégrer. Elles sont disponibles en pièces jointes sur Figma. Pense à te connecter à Figma pour pouvoir voir toutes les informations sur les éléments de la maquette. 
 > 
 > Tu trouveras également en pièce jointe le dossier contenant toutes les images à utiliser sur le site.
@@ -25,5 +25,7 @@ Sarah vous envoie un e-mail pour vous présenter l'avancée du projet.
 > - un fichier “index.html” contenant l’ensemble du code HTML du projet ;
 > - un dossier “CSS” comprenant un fichier “style.css” contenant l’ensemble du code CSS du projet ;
 > - un dossier “images” contenant l’ensemble des images utilisées.
+> 
 > Bon courage pour ce projet, et bonne journée !
+> 
 > Sarah, CTO @Booki
