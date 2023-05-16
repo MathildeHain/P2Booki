@@ -2,7 +2,8 @@
 
 Vous débutez votre alternance en tant que développeur web au sein de la strat-up Booki.
 
-![Booki agency logo](./images/logo/Booki.png
+![Booki agency logo](./images/logo/Booki.png)
+>Logo de Booki
 
 L'entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.
 
